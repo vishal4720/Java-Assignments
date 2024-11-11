@@ -3,7 +3,7 @@ import java.util.Date;
 
 public class FileProperties {
     public static void main(String[] args) {
-        File file = new File("example.txt");
+        File file = new File("sample.txt");
         if (file.exists()) {
             System.out.println("File name: " + file.getName());
             System.out.println("File size: " + file.length() + " bytes");

@@ -2,7 +2,7 @@ import java.io.File;
 
 public class ListFilesAndDirectories {
     public static void main(String[] args) {
-        File directory = new File("your_directory_path_here");
+        File directory = new File("../Q8");
         if (directory.exists() && directory.isDirectory()) {
             String[] files = directory.list();
             if (files != null) {

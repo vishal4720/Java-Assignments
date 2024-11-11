@@ -1,0 +1,2 @@
+Hello, this is a sample text written to output.txt
+This is the second line in the file.
